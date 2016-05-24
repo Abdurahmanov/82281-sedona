@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Артур Абдурахманов](https://up.htmlacademy.ru/adaptive/7/user/82281).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Половников](https://up.htmlacademy.ru/adaptive/7/user/8359).
 
 ---
 
