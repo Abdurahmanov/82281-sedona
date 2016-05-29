@@ -6,20 +6,20 @@
   </head>
   <body>
 
-    <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p> -->
-    <div class="wrapper">
+    
+    <div class="wrapper page">
     	<header class="header">
     		<ul class="menu-top">
-    			<li class="menu-top__item">Главная</li>
-    			<li class="menu-top__item">фото и видео</li>
-    			<li class="menu-top__item">Форма отзыва</li>
-    			<li class="menu-top__item">HTML academy</li>
+    			<li class="menu-top__item"><a href="#">Главная</a></li>
+    			<li class="menu-top__item"><a href="#">Фото и видео</a></li>
+    			<li class="menu-top__item"><a href="#">Форма отзыва</a></li>
+    			<li class="menu-top__item"><a href="#">HTML academy</a></li>
     		</ul>
     		<span class="header__burger"></span>
     		<div class="header__logo"></div>
     	</header>
     	<div class="photo-index">
-    		<div class="photo-index"></div>
+    		<div class="photo-index__img"></div>
     	</div>
     	<div class="page__title">
     		Оставьте свой отзыв
@@ -27,19 +27,19 @@
     	<div class="page__description">
     		Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
     	</div>
-    	<form action="" class="page-form">
+    	<form action="" class="form">
     		<div class="form__block">
     			<div class="form__title">
 	    			Представьтесь, пожалуйста:
 	    		</div>
     		
-    			<label for="name">ИМЯ:<input type="text" name="" id="name"></label>
+    			<label for="name">Имя:<input type="text" name="name" id="name"></label>
     		
     		
-    			<label for="surname">ФАМИЛИЯ:<input type="text" name="" id="surname"></label>
+    			<label for="surname">Фамилия:<input type="text" name="surname" id="surname"></label>
     		
     		
-    			<label for="middlename">Отчество:<input type="text" name="" id="middlename"></label>
+    			<label for="middlename">Отчество:<input type="text" name="middlename" id="middlename"></label>
     		
     		</div>
     		<div class="form__block">
@@ -57,7 +57,7 @@
     		</div>
     		<div class="form__block">
     			<div class="form__title">
-	    			ВАше Общее впечатление:
+	    			Ваше общее впечатление:
 	    		</div>
 	    		<div>
 	    			<label for="radio1">Скорее положительное</label>
@@ -99,7 +99,7 @@
 	    		</div>
 	    		<textarea name="" placeholder="Опишите подробно все свои восторги "></textarea>
     		</div>
-    		<button type="submit">ОТПРАВИТЬ ОТЗЫВ</button>
+    		<button type="submit">Отправить отзыв</button>
     	</form>
     	
     	<footer class="footer">
