@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
 
@@ -10,10 +11,10 @@
     <div class="wrapper page">
     	<header class="header">
     		<ul class="menu-top">
-    			<li class="menu-top__item"><a href="#">Главная</a></li>
-    			<li class="menu-top__item"><a href="#">Фото и видео</a></li>
-    			<li class="menu-top__item"><a href="#">Форма отзыва</a></li>
-    			<li class="menu-top__item"><a href="#">HTML academy</a></li>
+    			<li class="menu-top__item"><a href="index.html" class="menu-top__link">Главная</a></li>
+                <li class="menu-top__item"><a href="photo.html" class="menu-top__link">Фото и видео</a></li>
+                <li class="menu-top__item"><a href="form.html" class="menu-top__link">Форма отзыва</a></li>
+                <li class="menu-top__item"><a href="#" class="menu-top__link">HTML academy</a></li>
     		</ul>
     		<span class="header__burger"></span>
     		<div class="header__logo"></div>
@@ -42,7 +43,7 @@
     			<label for="middlename">Отчество:<input type="text" name="middlename" id="middlename"></label>
     		
     		</div>
-    		<div class="form__block">
+    		<div class="form__block ">
     			<div class="form__title">
 	    			Контактная информация:
 	    		</div>
@@ -55,7 +56,7 @@
 	    			<input type="text" id="tel">
 	    		</div>
     		</div>
-    		<div class="form__block">
+    		<div class="form__block form__block_radio">
     			<div class="form__title">
 	    			Ваше общее впечатление:
 	    		</div>
@@ -72,7 +73,7 @@
 	    			<input type="radio" id="radio1" name="radio">
 	    		</div>
     		</div>
-    		<div class="form__block">
+    		<div class="form__block form__block_checkbox" >
     			<div class="form__title">
 	    			посещенные достопримечательности:
 	    		</div>
@@ -99,7 +100,7 @@
 	    		</div>
 	    		<textarea name="" placeholder="Опишите подробно все свои восторги "></textarea>
     		</div>
-    		<button type="submit">Отправить отзыв</button>
+    		<button type="submit" class="form__submit">Отправить отзыв</button>
     	</form>
     	
     	<footer class="footer">

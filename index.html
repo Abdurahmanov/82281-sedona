@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
 
@@ -10,10 +11,10 @@
     <div class="wrapper page">
     	<header class="header">
     		<ul class="menu-top">
-    			<li class="menu-top__item"><a href="#">Главная</a></li>
-    			<li class="menu-top__item"><a href="#">Фото и видео</a></li>
-    			<li class="menu-top__item"><a href="#">Форма отзыва</a></li>
-    			<li class="menu-top__item"><a href="#">HTML academy</a></li>
+    			<li class="menu-top__item"><a href="index.html" class="menu-top__link">Главная</a></li>
+    			<li class="menu-top__item"><a href="photo.html" class="menu-top__link">Фото и видео</a></li>
+    			<li class="menu-top__item"><a href="form.html" class="menu-top__link">Форма отзыва</a></li>
+    			<li class="menu-top__item"><a href="#" class="menu-top__link">HTML academy</a></li>
     		</ul>
     		<span class="header__burger"></span>
     		<div class="header__logo"></div>
@@ -41,7 +42,9 @@
 	    			седона не атракцион для туристов, там течет своя жизнь
 	    		</div>
 	    		<div class="reason__photo">
-	    			<img src="http://placehold.it/320x260">
+	    			<img src="img/photo-city@1x.jpg"
+					     srcset="img/photo-city@1x.jpg 1x "
+					     alt="Настоящий городок" width="800" height="400">
 	    		</div>
 	    		<div class="reason__items">
 
@@ -85,7 +88,9 @@
 	    			Да, по нему можно пройти! Если конечно вы осмелитесь
 	    		</div>
 	    		<div class="reason__photo">
-	    			<img src="http://placehold.it/320x260">
+	    			<img src="img/photo-bridge@1x.jpg"
+					     srcset="img/photo-bridge@1x.jpg 1x "
+					     alt="там есть мост дьявола" width="800" height="400">
 	    		</div>
 	    	</div>
 	    	<div class="reason__bottom">
