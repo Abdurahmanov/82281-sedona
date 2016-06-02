@@ -16,16 +16,16 @@
 		padding: 0 30px;
 		text-transform: uppercase;
 	}
-	&__button{
-		background-color: #81b3d2;
-		& a{
-			color: white;
-			font-size: 21px;
-			font-weight: 700;
-			line-height: 26px;
-			text-transform: uppercase;
-			text-decoration: none;
-		}
-		
+}
+
+.page__button{
+	background-color: #81b3d2;
+	& a{
+		color: white;
+		font-size: 21px;
+		font-weight: 700;
+		line-height: 26px;
+		text-transform: uppercase;
+		text-decoration: none;
 	}
 }
