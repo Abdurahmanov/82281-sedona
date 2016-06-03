@@ -17,15 +17,3 @@
 		text-transform: uppercase;
 	}
 }
-
-.page__button{
-	background-color: #81b3d2;
-	& a{
-		color: white;
-		font-size: 21px;
-		font-weight: 700;
-		line-height: 26px;
-		text-transform: uppercase;
-		text-decoration: none;
-	}
-}
