@@ -1,0 +1,35 @@
+.form{
+	&__title{
+		color: black;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 26px;
+		text-transform: uppercase;
+	}
+	label{
+		color: #333;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 26px;
+		text-transform: uppercase;
+	}
+	&__submit{
+		background-color: #81b3d2;
+		color: white;
+		font-size: 21px;
+		font-weight: 700;
+		line-height: 26px;
+		text-transform: uppercase;
+		border: none;
+	}
+}
+
+.form__block_radio, .form__block_checkbox{
+	label{
+		color: black;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 26px;
+		text-transform: capitalize;
+	}
+}

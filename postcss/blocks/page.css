@@ -1,0 +1,19 @@
+.page{
+	font-family: PTSans, Arial, sans-serif;
+	&__title{
+		line-height: 26px;
+		text-transform: uppercase;
+		color: black;
+		font-size: 18px;
+		font-weight: 700;
+		padding: 0 30px;
+	}
+	&__description{
+		line-height: 26px;
+		color: #333;
+		font-size: 14px;
+		font-weight: 400;
+		padding: 0 30px;
+		text-transform: uppercase;
+	}
+}

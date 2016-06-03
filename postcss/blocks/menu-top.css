@@ -1,0 +1,11 @@
+.menu-top{
+	background-color: #81b3d2;
+	&__link{
+		color: white;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 40px;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+}

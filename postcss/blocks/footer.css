@@ -1,0 +1,17 @@
+.footer{
+	&__cop{
+		color: black;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 26px;
+		text-transform: uppercase;
+	}
+}
+
+.hashtag{
+	color: black;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+}

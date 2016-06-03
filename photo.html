@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
 
@@ -10,10 +11,10 @@
     <div class="wrapper page">
     	<header class="header">
     		<ul class="menu-top">
-                <li class="menu-top__item"><a href="#">Главная</a></li>
-                <li class="menu-top__item"><a href="#">Фото и видео</a></li>
-                <li class="menu-top__item"><a href="#">Форма отзыва</a></li>
-                <li class="menu-top__item"><a href="#">HTML academy</a></li>
+                <li class="menu-top__item"><a href="index.html" class="menu-top__link">Главная</a></li>
+                <li class="menu-top__item"><a href="photo.html" class="menu-top__link">Фото и видео</a></li>
+                <li class="menu-top__item"><a href="form.html" class="menu-top__link">Форма отзыва</a></li>
+                <li class="menu-top__item"><a href="#" class="menu-top__link">HTML academy</a></li>
             </ul>
     		<span class="header__burger"></span>
     		<div class="header__logo"></div>
@@ -30,7 +31,9 @@
     	<div class="photos">
             <div class="photo">
                  <div class="photo__img">
-                     <img src="http://placehold.it/280x280">
+                     <img src="img/photo-1-mobile@1x.jpg"
+                         srcset="img/photo-1-mobile@1x.jpg 1x "
+                         alt="неродные просторы" width="280" height="280">
                  </div>
                  <div class="photo__title">
                      неродные просторы
@@ -44,7 +47,9 @@
             </div> 
             <div class="photo">
                  <div class="photo__img">
-                     <img src="http://placehold.it/280x280">
+                     <img src="img/photo-2-mobile@1x.jpg"
+                         srcset="img/photo-2-mobile@1x.jpg 1x "
+                         alt="Местная растительность" width="280" height="280">
                  </div>
                  <div class="photo__title">
                     Местная растительность
@@ -58,7 +63,9 @@
             </div>
             <div class="photo">
                  <div class="photo__img">
-                     <img src="http://placehold.it/280x280">
+                     <img src="img/photo-3-mobile@1x.jpg"
+                         srcset="img/photo-3-mobile@1x.jpg 1x "
+                         alt="Дорога на север" width="280" height="280">
                  </div>
                  <div class="photo__title">
                     Дорога на север
@@ -72,7 +79,9 @@
             </div>  
             <div class="photo">
                  <div class="photo__img">
-                     <img src="http://placehold.it/280x280">
+                     <img src="img/photo-4-mobile@1x.jpg"
+                         srcset="img/photo-4-mobile@1x.jpg 1x "
+                         alt="Мост дьявола" width="280" height="280">
                  </div>
                  <div class="photo__title">
                     Мост дьявола
@@ -92,7 +101,7 @@
            Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
         </div>
         <div class="video">
-            <video autobuffer autoloop loop controls>
+            <video autobuffer autoloop loop controls poster="img/video-mobile@1x.jpg"> 
                 <source src="/media/video.oga">
                 <source src="/media/video.m4v">
                 <object type="video/ogg" data="/media/video.oga" width="320" height="240">
