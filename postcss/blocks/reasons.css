@@ -1,15 +1,17 @@
 .reasons{
-	
+	float: left;
 }
 .reason{
-	background-color: #81b3d2;
+	&__info{
+		background-color: #81b3d2;
+	}
 	&__title{
 		color: white;
 		text-transform: uppercase;
 		font-size: 18px;
 		font-weight: 700;
 		line-height: 26px;
-		padding: 0 30px;
+		padding: 0 28px;
 	}
 	&__slogan{
 		line-height: 26px;
@@ -31,9 +33,17 @@
 		font-weight: 400;
 		line-height: 21px;
 	}
+	&__img{
+		width: 100%;
+	}
 }
 .reason__bottom .reason{
 	background: #eee;
+	padding: 0 20px;
+	&__info{
+		background: transparent;
+		border-bottom: 1px solid #d6d6d6;
+	}
 }
 .reason__bottom .reason__title{
 	text-transform: uppercase;
@@ -49,5 +59,45 @@
 	font-size: 14px;
 	font-weight: 400;
 }
+
+@media (min-width: 768px){
+	.reasons {
+	    float: left;
+	}
+	.reason{
+		float: left;
+		width: 100%;
+		&__info{
+			width: 33%;
+			float: left;
+		}
+		&__photo{
+			float: left;
+			width: 67%;
+		}
+		&__items{
+			float: left;
+    		width: 100%;
+		}
+		&__item{
+			float: left;
+    		width: 33.3%;
+		}
+		&__bottom{
+			float: left;
+			width: 100%;
+		}
+	}
+	.reason__bottom .reason{
+		width: 28%;
+		&__info{
+			width: 100%;
+		}
+	}
+	.reason__info_direction{
+		float: right;
+	}
+}
+
 
 

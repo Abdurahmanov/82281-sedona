@@ -1,0 +1,14 @@
+.interested{
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+@media (min-width: 768px){
+	.interested{
+		width: 460px;
+	    padding: 0;
+	    margin: 0 auto;
+	    float: none;
+	}
+}

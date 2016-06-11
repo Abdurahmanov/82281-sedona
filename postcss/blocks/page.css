@@ -7,6 +7,8 @@
 		font-size: 18px;
 		font-weight: 700;
 		padding: 0 30px;
+		clear: left;
+		text-align: center;
 	}
 	&__description{
 		line-height: 26px;
@@ -15,5 +17,7 @@
 		font-weight: 400;
 		padding: 0 30px;
 		text-transform: uppercase;
+		/*float: left;*/
+		text-align: center;
 	}
 }
