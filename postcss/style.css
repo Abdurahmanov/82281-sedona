@@ -1,3 +1,4 @@
+@import url("blocks/normalize.css");
 @import url("blocks/page.css");
 @import url("blocks/menu-top.css");
 @import url("blocks/reasons.css");
@@ -9,3 +10,4 @@
 @import url("blocks/photos.css");
 @import url("blocks/video.css");
 @import url("blocks/btn.css");
+@import url("blocks/interested.css");

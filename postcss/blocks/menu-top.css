@@ -1,5 +1,12 @@
 .menu-top{
 	background-color: #81b3d2;
+	min-height: 223px;
+	margin:0;
+	padding: 0;
+	text-align: center;
+	&__item{
+		box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2);
+	}
 	&__link{
 		color: white;
 		font-size: 18px;
@@ -7,5 +14,22 @@
 		line-height: 40px;
 		text-transform: uppercase;
 		text-decoration: none;
+	}
+}
+
+@media (min-width: 768px){
+	.menu-top{
+		min-height: 56px;
+	    height: 56px;
+	    text-align: left;
+	    background: #fff;
+	    line-height: 56px;
+		&__item{
+			display: inline-block;
+    		box-shadow: none;
+		}
+		&__link{
+			color: black;
+		}
 	}
 }

@@ -1,0 +1,15 @@
+.header{
+	float: left;
+    width: 100%;
+	&__logo{
+		min-height: 53px;
+	}
+}
+
+@media (min-width: 768px){
+	.header{
+		&__logo{
+			min-height: 0px;
+		}
+	}
+}
