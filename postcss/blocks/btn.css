@@ -1,9 +1,14 @@
 .btn{
 	background-color: #81b3d2;
-	color: white;
-	font-size: 21px;
-	font-weight: 700;
-	line-height: 26px;
-	text-transform: uppercase;
-	text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 58px;
+    display: block;
+    line-height: 58px;
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }

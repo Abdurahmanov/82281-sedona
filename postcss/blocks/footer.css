@@ -1,5 +1,4 @@
 .footer{
-	clear: both;
 	&__cop{
 		color: black;
 		font-size: 14px;
@@ -7,6 +6,26 @@
 		line-height: 26px;
 		text-transform: uppercase;
 		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 35px;
+	}
+	&__social{
+		display: flex;
+	    justify-content: space-between;
+	    width: 150px;
+	    margin: 0 auto;
+	    margin-top: 40px;
+	}
+}
+
+.footer__cop{
+	&-link{
+		background: url("../../img/logo-htmlacademy.svg") no-repeat;
+		width: 27px;
+		height: 34px;
+		display: inline-block;
+		margin-left: 10px;
+		vertical-align: middle;
 	}
 }
 
