@@ -1,8 +1,17 @@
 .header{
-	float: left;
+	position: relative;
     width: 100%;
 	&__logo{
 		min-height: 53px;
+	}
+	&__burger{
+		background: url(../../img/icon-cross.svg) no-repeat;
+		width: 22px;
+		height: 22px;
+		display: block;
+		position: absolute;
+		top:17px;
+		right: 20px;
 	}
 }
 
