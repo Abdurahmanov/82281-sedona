@@ -11,18 +11,23 @@
     
     <div class="wrapper page">
     	<header class="header">
-    		<ul class="menu-top">
-    			<li class="menu-top__item"><a href="index.html" class="menu-top__link">Главная</a></li>
+            <ul class="menu-top">
+                <li class="menu-top__item"><a href="index.html" class="menu-top__link">Главная</a></li>
                 <li class="menu-top__item"><a href="photo.html" class="menu-top__link">Фото и видео</a></li>
                 <li class="menu-top__item"><a href="form.html" class="menu-top__link">Форма отзыва</a></li>
                 <li class="menu-top__item"><a href="#" class="menu-top__link">HTML academy</a></li>
-    		</ul>
-    		<span class="header__burger"></span>
-    		<div class="header__logo"></div>
-    	</header>
-    	<div class="photo-index">
-    		<div class="photo-index__img"></div>
-    	</div>
+            </ul>
+            <span class="header__burger"></span>
+            <div class="header__logo">
+                <img src="img/logo-sedona-mobile.svg" alt="" width="102" height="84">
+            </div>
+        </header>
+        <div class="photo-index photo-index_photo">
+            <div class="photo-index__img">
+                <div class="photo-index__img-title">
+                </div>      
+            </div>
+        </div>
     	<div class="page__title">
     		Оставьте свой отзыв
     	</div>
@@ -30,78 +35,79 @@
     		Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
     	</div>
     	<form action="" class="form">
+            <div class="form__block form__block_radio">
+                <div class="form__title">
+                    Ваше общее впечатление:
+                </div>
+                <div class="form__radio">
+                    <input type="radio" id="radio1" name="radio">
+                    <label for="radio1">Скорее положительное</label>
+                </div>
+                <div class="form__radio">
+                    <input type="radio" id="radio2" name="radio">
+                    <label for="radio2">Скорее отрицательное</label>
+                </div>
+                <div class="form__radio">
+                    <input type="radio" id="radio3" name="radio">
+                    <label for="radio3">Затрудняюсь ответить</label>
+                </div>
+            </div>
     		<div class="form__block">
     			<div class="form__title">
 	    			Представьтесь, пожалуйста:
 	    		</div>
     		
-    			<label for="name">Имя:<input type="text" name="name" id="name"></label>
+    			<label for="name">Имя:<input type="text" name="name" id="name" class="form__name"></label>
     		
     		
-    			<label for="surname">Фамилия:<input type="text" name="surname" id="surname"></label>
+    			<label for="surname">Фамилия:<input type="text" name="surname" id="surname" class="form__name"></label>
     		
     		
-    			<label for="middlename">Отчество:<input type="text" name="middlename" id="middlename"></label>
+    			<label for="middlename">Отчество:<input type="text" name="middlename" id="middlename" class="form__name"></label>
     		
     		</div>
-    		<div class="form__block ">
+    		<div class="form__block form__block_information">
     			<div class="form__title">
 	    			Контактная информация:
 	    		</div>
-	    		<div>
+	    		<div class="form__tel">
 	    			<label for="tel">Контактный телефон:</label>
 	    			<input type="text" id="tel" >
 	    		</div>
-	    		<div>
-	    			<label for="tel">Электронная почта:</label>
-	    			<input type="text" id="tel">
+	    		<div class="form__mail">
+	    			<label for="mail">Электронная почта:</label>
+	    			<input type="email" id="mail">
 	    		</div>
     		</div>
-    		<div class="form__block form__block_radio">
-    			<div class="form__title">
-	    			Ваше общее впечатление:
-	    		</div>
-	    		<div>
-	    			<label for="radio1">Скорее положительное</label>
-	    			<input type="radio" id="radio1" name="radio">
-	    		</div>
-	    		<div>
-	    			<label for="radio1">Скорее отрицательное</label>
-	    			<input type="radio" id="radio1" name="radio">
-	    		</div>
-	    		<div>
-	    			<label for="radio1">Затрудняюсь ответить</label>
-	    			<input type="radio" id="radio1" name="radio">
-	    		</div>
-    		</div>
+    		
     		<div class="form__block form__block_checkbox" >
     			<div class="form__title">
 	    			посещенные достопримечательности:
 	    		</div>
-	    		<div>
+	    		<div class="form__checkbox">
+                    <input type="checkbox" id="checkbox1" name="checkbox">
 	    			<label for="checkbox1">Мост Дьявола</label>
-	    			<input type="checkbox" id="checkbox1" name="checkbox">
 	    		</div>
-	    		<div>
+	    		<div class="form__checkbox">
+                    <input type="checkbox" id="checkbox2" name="checkbox">
 	    			<label for="checkbox2">Слайд-парк</label>
-	    			<input type="checkbox" id="checkbox2" name="checkbox">
 	    		</div>
-	    		<div>
+	    		<div class="form__checkbox">
+                    <input type="checkbox" id="checkbox3" name="checkbox">
 	    			<label for="checkbox3">Гора-Колокол</label>
-	    			<input type="checkbox" id="checkbox3" name="checkbox">
 	    		</div>
-	    		<div>
+	    		<div class="form__checkbox">
+                    <input type="checkbox" id="checkbox4" name="checkbox">
 	    			<label for="checkbox4">Красные скалы</label>
-	    			<input type="checkbox" id="checkbox4" name="checkbox">
 	    		</div>
     		</div>
-    		<div class="form__block">
+    		<div class="form__block form__block_textarea">
     			<div class="form__title">
 	    			Опишите свои эмоции:
 	    		</div>
 	    		<textarea name="" placeholder="Опишите подробно все свои восторги "></textarea>
     		</div>
-    		<button type="submit" class="form__submit">Отправить отзыв</button>
+    		<button type="submit" class="form__submit btn">Отправить отзыв</button>
     	</form>
     	
     	<footer class="footer">

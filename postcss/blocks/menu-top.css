@@ -1,12 +1,14 @@
 .menu-top{
 	background-color: #81b3d2;
-	margin:0;
-	padding: 0;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 	&__item{
+		height: 55px;
+    	line-height: 55px;
 		box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2);
 		height: 55px;
 		line-height: 55px;
@@ -29,12 +31,22 @@
 	    text-align: left;
 	    background: #fff;
 	    line-height: 56px;
+	    flex-direction: row;
+	    justify-content: space-around;
 		&__item{
 			display: inline-block;
     		box-shadow: none;
+    		width: 20%;
+    		text-align: center;
 		}
 		&__link{
 			color: black;
+			font-size: 14px;
+		}
+	}
+	.menu-top__item{
+		&:nth-child(2){
+			margin-right: 20%;
 		}
 	}
 }

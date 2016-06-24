@@ -1,5 +1,6 @@
 .page{
 	font-family: PTSans, Arial, sans-serif;
+	background: #fff;
 	&__title{
 		line-height: 26px;
 		text-transform: uppercase;
@@ -7,8 +8,8 @@
 		font-size: 18px;
 		font-weight: 700;
 		padding: 0 30px;
-		clear: left;
 		text-align: center;
+		font-family: "PTSans-bold";
 	}
 	&__description{
 		line-height: 26px;
@@ -17,15 +18,40 @@
 		font-weight: 400;
 		padding: 0 30px;
 		text-transform: uppercase;
-		/*float: left;*/
 		text-align: center;
+		margin-top: 35px;
+		margin-bottom: 30px;
 	}
 }
+
+@media (min-width: 768px){
+	.page{
+	    &__title{
+	    	max-width: 490px;
+	    	margin: 0 auto;
+	    	padding: 0;
+	    }
+	    &__description{
+	    	max-width: 490px;
+	    	margin: 0 auto;
+	    	margin-top: 35px;
+	    	margin-bottom: 55px;
+	    	padding: 0;
+	    }
+	}
+	.page_photo{
+		 .page__title{
+			font-size: 30px;
+		}
+	}
+}
+
 
 @media (min-width: 1200px){
 	.page{
 		max-width: 1200px;
 	    margin: 0 auto;
-	    background: #fff;
+	    box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 	}
+	
 }

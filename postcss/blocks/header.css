@@ -1,8 +1,21 @@
 .header{
-	position: relative;
     width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 	&__logo{
 		min-height: 53px;
+		z-index: 2;
+	}
+	&__burger{
+		width: 22px;
+		height: 22px;
+		background: url("../../img/icon-cross.svg");
+		display: block;
+		position: absolute;
+	    top: 17px;
+	    right: 20px;
 	}
 	&__burger{
 		background: url(../../img/icon-cross.svg) no-repeat;
@@ -18,7 +31,14 @@
 @media (min-width: 768px){
 	.header{
 		&__logo{
-			min-height: 0px;
+			position: absolute;
+			top: 0;
+			left: 40%;
+			width: 20%;
+			text-align: center;
+		}
+		&__burger{
+			display: none;
 		}
 	}
 }
