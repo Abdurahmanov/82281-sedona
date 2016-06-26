@@ -6,7 +6,7 @@
 		line-height: 26px;
 		text-transform: uppercase;
 		text-align: center;
-		margin-top: 50px;
+		margin-top: 42px;
 		margin-bottom: 35px;
 	}
 	&__social{
@@ -14,13 +14,13 @@
 	    justify-content: space-between;
 	    width: 150px;
 	    margin: 0 auto;
-	    margin-top: 40px;
+	    margin-top: 36px;
 	}
 }
 
 .footer__cop{
 	&-link{
-		background: url("../../img/logo-htmlacademy.svg") no-repeat;
+		background: url("../img/logo-htmlacademy.svg") no-repeat;
 		width: 27px;
 		height: 34px;
 		display: inline-block;
@@ -29,7 +29,7 @@
 	}
 }
 
-.hashtag{
+.footer__hashtag{
 	color: black;
 	font-size: 21px;
 	font-weight: 700;
@@ -46,7 +46,7 @@
 	    justify-content: space-between;
 	    align-items: center;
 	    padding-bottom: 35px;
-	    margin-top: 35px;
+	    margin-top: 43px;
 		&__cop{
 			margin: 0;
 		}
@@ -54,13 +54,19 @@
 			margin: 0;
 		}
 	}
-	.hashtag{
-	}
+
 }
 
 @media (min-width: 1200px){
 	.footer{
-		max-width: 1024px;
-		padding-top: 40px;
+		max-width: 1103px;
+		padding-top: 0px;
+		margin-top: 33px;
+		&__hashtag{
+			padding-left: 82px;
+		}
+		&__social{
+			margin-right: 92px;
+		}
 	}
 }

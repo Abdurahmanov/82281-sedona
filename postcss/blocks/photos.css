@@ -78,7 +78,7 @@
 		position: relative;
 		&:before{
 			content:'';
-			background: url(../../img/icon-like.svg) no-repeat;
+			background: url(../img/icon-like.svg) no-repeat;
 			width: 23px;
 			height: 21px;
 			display: inline-block;
@@ -91,7 +91,7 @@
 @media (min-width: 1200px){
 	.photos{
 		max-width: 100%;
-		margin-top: 75px;
+		margin-top: 67px;
 		margin-bottom: 65px;
 	}
 	.photo{
@@ -100,6 +100,9 @@
         margin-right: -4px;
         position: relative;
     	padding-bottom: 0;
+    	&__img{
+    		height: 267px;
+    	}
 		&__title{
 			padding:0 20px;
 			color: #fff;

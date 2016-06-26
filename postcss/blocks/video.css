@@ -21,5 +21,10 @@
 @media (min-width: 1200px){
 	.video{
 		max-width: 800px;
+		margin-top: 60px;
+		margin-bottom: 100px;
+		video{
+			height: 530px;
+		}
 	}
 }

@@ -1,6 +1,13 @@
 .interested{
 	width: 100%;
 	text-align: center;
+	.page__title{
+		font-size: 21px;
+	}
+	.page__description{
+		margin-top: 23px;
+		    line-height: 25px;
+	}
 }
 
 @media (min-width: 768px){

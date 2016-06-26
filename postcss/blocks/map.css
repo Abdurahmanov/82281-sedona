@@ -2,3 +2,9 @@
 	margin-bottom: 30px;
     width: 100%;
 }
+
+@media (min-width: 1200px){
+	.map{
+		margin-top: 72px;
+	}
+}

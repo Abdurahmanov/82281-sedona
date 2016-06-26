@@ -1,5 +1,5 @@
 .reasons{
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 .reason{
 	display: flex;
@@ -7,7 +7,7 @@
 	&__info{
 		background-color: #81b3d2;
 	    color: #fff;
-	    padding: 40px 30px 45px;
+	    padding: 52px 20px 41px;
 	    text-align: center;
 	}
 	&__title{
@@ -16,16 +16,16 @@
 		font-size: 18px;
 		font-weight: 700;
 		line-height: 26px;
-		margin-bottom: 15px;
+		margin-bottom: 8px;
 	}
 	&__slogan{
-		line-height: 26px;
+		line-height: 21px;
 		text-transform: uppercase;
 		font-size: 14px;
 		font-weight: 400;
 	}
 	&__number{
-		margin-bottom: 20px;
+		margin-bottom: 16px;
 	}
 	&__head{
 		text-transform: uppercase;
@@ -33,7 +33,7 @@
 		font-size: 18px;
 		font-weight: 700;
 		line-height: 26px;
-		margin-bottom: 20px;
+		margin-bottom: 12px;
 		position: relative;
 	}
 	&__description{
@@ -49,11 +49,11 @@
 	&_items{
 		display: flex;
 	    flex-direction: column;
-	    padding: 26px 20px 40px;
+	    padding: 22px 11px 25px;
 	}
 	&__item{
 		margin-bottom: 20px;
-	    padding: 10px 50px 0;
+	    padding: 10px 20px 0 50px;
 	    position: relative;
 	    &::before{
 	    	content: '';
@@ -69,7 +69,7 @@
 }
 .reason__item_hous{
 	&::before{
-		background: url("../../img/icon-house.svg");
+		background: url("../img/icon-house.svg");
 		width: 39px;
 		height: 37px;
 		background-size: cover;
@@ -77,7 +77,7 @@
 }
 .reason__item_gift{
 	&::before{
-		background: url("../../img/icon-gift.svg");
+		background: url("../img/icon-gift.svg");
 		width: 32px;
 		height: 38px;
 		background-size: cover;
@@ -85,7 +85,7 @@
 }
 .reason__item_food{
 	&::before{
-		background: url("../../img/icon-burger.svg");
+		background: url("../img/icon-burger.svg");
 		width: 40px;
 		height: 35px;
 		background-size: cover;
@@ -93,10 +93,11 @@
 }
 .reason_bottom .reason{
 	background: #eee;
-	padding: 0 20px;
+	padding: 0 25px;
 	&__info{
 		background: transparent;
 		border-bottom: 1px solid #d6d6d6;
+		padding: 23px 0px 31px;
 	}
 }
 .reason_bottom .reason__title{
@@ -129,10 +130,11 @@
 			flex-direction: row-reverse;
 		}
 		&_items{
-			margin-top: 30px;
+			margin-top: 17px;
+			margin-bottom: 12px;
 		}
 		&__info{
-			width: 33%;
+			width: 28%;
 		}
 		&__photo{
 			width: 67%;
@@ -143,15 +145,25 @@
 			display: flex;
 			flex-direction: column;
 		}
+		&__head{
+			margin-bottom: 22px;
+		}
+		&__title{
+			font-size: 21px;
+		}
 	}
 	.reason_bottom .reason{
 		padding: 0;
 	    display: flex;
 	    width: 33%;
 	    flex-grow: 1;
+	    padding: 15px 52px;
 		&__info{
 			width: 100%;
 			border: none;
+		}
+		&__title{
+			font-size: 21px;
 		}
 	}
 	.reason__info_direction{
@@ -206,6 +218,15 @@
 			margin: 0 auto;
     		margin-bottom: 20px;
 		}
+		&_items{
+			margin-bottom: 35px;
+		}
+		&__info{
+			width: 30%;
+		}
+	}
+	.reason_bottom .reason{
+		padding: 15px 96px 35px;
 	}
 }
 

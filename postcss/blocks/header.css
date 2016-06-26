@@ -11,14 +11,14 @@
 	&__burger{
 		width: 22px;
 		height: 22px;
-		background: url("../../img/icon-cross.svg");
+		background: url("../img/icon-cross.svg");
 		display: block;
 		position: absolute;
-	    top: 17px;
-	    right: 20px;
+	    top: 15px;
+	    right: 12px;
 	}
 	&__burger{
-		background: url(../../img/icon-cross.svg) no-repeat;
+		background: url(../img/icon-cross.svg) no-repeat;
 		width: 22px;
 		height: 22px;
 		display: block;

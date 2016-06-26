@@ -7,7 +7,7 @@
 		color: black;
 		font-size: 18px;
 		font-weight: 700;
-		padding: 0 30px;
+		padding: 0 20px;
 		text-align: center;
 		font-family: "PTSans-bold";
 	}
@@ -16,10 +16,10 @@
 		color: #333;
 		font-size: 14px;
 		font-weight: 400;
-		padding: 0 30px;
+		padding: 0 20px;
 		text-transform: uppercase;
 		text-align: center;
-		margin-top: 35px;
+		margin-top: 26px;
 		margin-bottom: 30px;
 	}
 }
@@ -30,12 +30,13 @@
 	    	max-width: 490px;
 	    	margin: 0 auto;
 	    	padding: 0;
+	    	font-size: 21px;
 	    }
 	    &__description{
 	    	max-width: 490px;
 	    	margin: 0 auto;
-	    	margin-top: 35px;
-	    	margin-bottom: 55px;
+	    	margin-top: 30px;
+	    	margin-bottom: 50px;
 	    	padding: 0;
 	    }
 	}
@@ -43,6 +44,9 @@
 		 .page__title{
 			font-size: 30px;
 		}
+	}
+	.page__title_form{
+		font-size: 31px;
 	}
 }
 
