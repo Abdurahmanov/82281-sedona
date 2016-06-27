@@ -18,6 +18,7 @@
                 <li class="menu-top__item"><a href="#" class="menu-top__link">HTML academy</a></li>
             </ul>
             <span class="header__burger"></span>
+            <span class="header__close"></span>
             <div class="header__logo">
                 <img src="img/logo-sedona-mobile.svg" alt="" width="102" height="84">
             </div>
@@ -34,7 +35,7 @@
     	<div class="page__description">
     		Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
     	</div>
-    	<form action="" class="form">
+    	<form class="form">
             <div class="form__block form__block_radio">
                 <div class="form__title">
                     Ваше общее впечатление:
@@ -74,6 +75,7 @@
 	    			<label for="tel">Контактный телефон:</label>
 	    			<input type="text" id="tel" >
 	    		</div>
+                <div class="form__error">Ошибка, перепроверьте номер</div>
 	    		<div class="form__mail">
 	    			<label for="mail">Электронная почта:</label>
 	    			<input type="email" id="mail">
@@ -105,9 +107,12 @@
     			<div class="form__title">
 	    			Опишите свои эмоции:
 	    		</div>
-	    		<textarea name="" placeholder="Опишите подробно все свои восторги "></textarea>
+	    		<textarea name="textarea" placeholder="Опишите подробно все свои восторги "></textarea>
     		</div>
-    		<button type="submit" class="form__submit btn">Отправить отзыв</button>
+    		<div class="form__block form__block_submit">
+                <button type="submit" class="form__submit btn">Отправить отзыв</button>
+                <span class="form__obligatory">* — обязательные поля</span>
+            </div>
     	</form>
     	
     	<footer class="footer">

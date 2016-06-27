@@ -7,17 +7,15 @@
     width: 100%;
     flex-direction: column;
 	&__item{
-		height: 55px;
-    	line-height: 55px;
 		box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2);
-		height: 55px;
+		height: 56px;
 		line-height: 55px;
 		width: 100%;
 	}
 	&__link{
 		color: white;
 		font-size: 18px;
-		font-weight: 700;
+		font-family: "PTSans-bold", Arial, sans-serif;
 		line-height: 40px;
 		text-transform: uppercase;
 		text-decoration: none;

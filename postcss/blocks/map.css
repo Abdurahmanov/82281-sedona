@@ -5,6 +5,7 @@
 
 @media (min-width: 1200px){
 	.map{
-		margin-top: 72px;
+		margin-top: 65px;
+		margin-bottom: 16px;
 	}
 }

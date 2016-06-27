@@ -9,22 +9,22 @@
 		z-index: 2;
 	}
 	&__burger{
-		width: 22px;
-		height: 22px;
-		background: url("../img/icon-cross.svg");
-		display: block;
-		position: absolute;
-	    top: 15px;
-	    right: 12px;
+		background: url(../img/icon-menu.svg) no-repeat;
+		width: 23px;
+	    height: 22px;
+	    display: block;
+	    position: absolute;
+	    right: 20px;
+	    bottom: 50px;
 	}
-	&__burger{
+	&__close{
 		background: url(../img/icon-cross.svg) no-repeat;
 		width: 22px;
-		height: 22px;
-		display: block;
-		position: absolute;
-		top:17px;
-		right: 20px;
+	    height: 22px;
+	    display: block;
+	    position: absolute;
+	    right: 20px;
+	    top: 17px;
 	}
 }
 
@@ -38,6 +38,9 @@
 			text-align: center;
 		}
 		&__burger{
+			display: none;
+		}
+		&__close{
 			display: none;
 		}
 	}

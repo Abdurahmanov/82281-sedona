@@ -14,7 +14,7 @@
 		color: white;
 		text-transform: uppercase;
 		font-size: 18px;
-		font-weight: 700;
+		font-family: "PTSans-bold", Arial, sans-serif;
 		line-height: 26px;
 		margin-bottom: 8px;
 	}
@@ -31,7 +31,7 @@
 		text-transform: uppercase;
 		color: black;
 		font-size: 18px;
-		font-weight: 700;
+		font-family: "PTSans-bold", Arial, sans-serif;
 		line-height: 26px;
 		margin-bottom: 12px;
 		position: relative;
@@ -49,7 +49,7 @@
 	&_items{
 		display: flex;
 	    flex-direction: column;
-	    padding: 22px 11px 25px;
+	    padding: 22px 20px 39px;
 	}
 	&__item{
 		margin-bottom: 20px;
@@ -66,6 +66,9 @@
 			margin-bottom:0px;
 		}
 	}
+}
+.reason__info.reason__info_direction {
+    padding-top: 38px;
 }
 .reason__item_hous{
 	&::before{
@@ -104,7 +107,7 @@
 	text-transform: uppercase;
 	color: black;
 	font-size: 18px;
-	font-weight: 700;
+	font-family: "PTSans-bold", Arial, sans-serif;
 	line-height: 26px;
 }
 .reason_bottom .reason__slogan{
@@ -219,7 +222,7 @@
     		margin-bottom: 20px;
 		}
 		&_items{
-			margin-bottom: 35px;
+			margin-bottom: 20px;
 		}
 		&__info{
 			width: 30%;

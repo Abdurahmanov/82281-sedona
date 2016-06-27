@@ -9,6 +9,7 @@
 }
 
 .social-link_fb{
+	order: 2;
 	&::before{
 		content:'';
 		background: url("../img/icon-facebook.svg") no-repeat;
@@ -19,6 +20,7 @@
 }
 
 .social-link_tw{
+	order: 1;
 	&::before{
 		content:'';
 		background: url("../img/icon-twitter.svg") no-repeat;
@@ -29,6 +31,7 @@
 }
 
 .social-link_yout{
+	order: 3;
 	&::before{
 		content:'';
 		background: url("../img/icon-youtube.svg") no-repeat;
