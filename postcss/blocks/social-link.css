@@ -1,0 +1,42 @@
+.social-link{
+	width: 46px;
+    height: 46px;
+    background-color: #81b3d2;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link_fb{
+	order: 2;
+	&::before{
+		content:'';
+		background: url("../img/icon-facebook.svg") no-repeat;
+		width: 9px;
+		height: 19px;
+		display: block;
+	}
+}
+
+.social-link_tw{
+	order: 1;
+	&::before{
+		content:'';
+		background: url("../img/icon-twitter.svg") no-repeat;
+		width: 18px;
+		height: 15px;
+		display: block;
+	}
+}
+
+.social-link_yout{
+	order: 3;
+	&::before{
+		content:'';
+		background: url("../img/icon-youtube.svg") no-repeat;
+		width: 20px;
+		height: 14px;
+		display: block;
+	}
+}

@@ -9,7 +9,7 @@
   <body>
 
     <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p> -->
-    <div class="wrapper page">
+    <div class="wrapper page page_photo">
     	<header class="header">
     		<ul class="menu-top">
                 <li class="menu-top__item"><a href="index.html" class="menu-top__link">Главная</a></li>
@@ -18,10 +18,16 @@
                 <li class="menu-top__item"><a href="#" class="menu-top__link">HTML academy</a></li>
             </ul>
     		<span class="header__burger"></span>
-    		<div class="header__logo"></div>
+            <span class="header__close"></span>
+    		<div class="header__logo">
+                <img src="img/logo-sedona-mobile.svg" alt="" width="102" height="84">
+            </div>
     	</header>
-    	<div class="photo-index">
-    		<div class="photo-index__img"></div>
+    	<div class="photo-index photo-index_photo">
+    		<div class="photo-index__img">
+                <div class="photo-index__img-title">
+                </div>      
+            </div>
     	</div>
     	<div class="page__title">
     		Фото и видео
@@ -34,15 +40,18 @@
                  <div class="photo__img">
                      <img src="img/photo-1-mobile@1x.jpg"
                          srcset="img/photo-1-mobile@1x.jpg 1x "
-                         alt="неродные просторы" width="100%" height="100%">
+                         alt="неродные просторы" >
                  </div>
                  <div class="photo__info">
-                     <div class="photo__title">
-                         неродные просторы
+                     <div class="photo__about">
+                          <div class="photo__title">
+                             неродные просторы
+                         </div>
+                         <div class="photo__author">
+                             Автор фото: Борис
+                         </div>
                      </div>
-                     <div class="photo__author">
-                         Автор фото: Борис
-                     </div>
+                    
                      <div class="photo__like">
                          <span class="like-count">1350</span>
                      </div>
@@ -55,11 +64,13 @@
                          alt="Местная растительность" >
                  </div>
                  <div class="photo__info">
-                     <div class="photo__title">
-                        Местная растительность
-                     </div>
-                     <div class="photo__author">
-                         Автор фото: Сергей
+                     <div class="photo__about">
+                         <div class="photo__title">
+                            Местная растительность
+                         </div>
+                         <div class="photo__author">
+                             Автор фото: Сергей
+                         </div>
                      </div>
                      <div class="photo__like">
                          <span class="like-count">143</span>
@@ -73,12 +84,14 @@
                          alt="Дорога на север" >
                  </div>
                  <div class="photo__info">
-                     <div class="photo__title">
-                        Дорога на север
-                     </div>
-                     <div class="photo__author">
-                         Автор фото: Петр
-                     </div>
+                    <div class="photo__about">
+                         <div class="photo__title">
+                            Дорога на север
+                         </div>
+                         <div class="photo__author">
+                             Автор фото: Петр
+                         </div>
+                    </div>
                      <div class="photo__like">
                          <span class="like-count">96</span>
                      </div>
@@ -91,11 +104,13 @@
                          alt="Мост дьявола" >
                  </div>
                  <div class="photo__info">
-                     <div class="photo__title">
-                        Мост дьявола
-                     </div>
-                     <div class="photo__author">
-                         Автор фото: Антон
+                     <div class="photo__about">
+                         <div class="photo__title">
+                            Мост дьявола
+                         </div>
+                         <div class="photo__author">
+                             Автор фото: Антон
+                         </div>
                      </div>
                      <div class="photo__like">
                          <span class="like-count">254</span>
@@ -110,19 +125,21 @@
            Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
         </div>
         <div class="video">
-            <video autobuffer autoloop loop controls poster="img/video-mobile@1x.jpg"> 
-                <source src="/media/video.oga">
-                <source src="/media/video.m4v">
-                <object type="video/ogg" data="/media/video.oga" width="100%" height="240">
-                <param name="src" value="/media/video.oga">
-                <param name="autoplay" value="false">
-                <param name="autoStart" value="0">
-                <p><a href="/media/video.oga">Download this video file.</a></p>
-                </object>
-            </video>
+            <div class="video__img">
+                <img src="img/video-mobile@1x.jpg" alt="">
+                
+            </div>
+            <div class="video__range">
+                <a href="" class="video__replay"></a>
+                <div class="video__range-line"></div>
+                <a href="" class="video__sub"></a>
+                <a href="" class="video__full"></a>
+                    
+            </div>
+            
         </div>
     	<footer class="footer">
-    		<div class="hashtag">
+    		<div class="footer__hashtag">
     			#visitSEDONA
     		</div>
     		<div class="footer__social">

@@ -1,5 +1,4 @@
 .footer{
-	clear: both;
 	&__cop{
 		color: black;
 		font-size: 14px;
@@ -7,13 +6,33 @@
 		line-height: 26px;
 		text-transform: uppercase;
 		text-align: center;
+		margin-top: 42px;
+		margin-bottom: 35px;
+	}
+	&__social{
+		display: flex;
+	    justify-content: space-between;
+	    width: 150px;
+	    margin: 0 auto;
+	    margin-top: 36px;
 	}
 }
 
-.hashtag{
+.footer__cop{
+	&-link{
+		background: url("../img/logo-htmlacademy.svg") no-repeat;
+		width: 27px;
+		height: 34px;
+		display: inline-block;
+		margin-left: 10px;
+		vertical-align: middle;
+	}
+}
+
+.footer__hashtag{
 	color: black;
 	font-size: 21px;
-	font-weight: 700;
+	font-family: "PTSans-bold", Arial, sans-serif;
 	line-height: 26px;
 	text-transform: uppercase;
 	text-align: center;
@@ -21,13 +40,33 @@
 
 @media (min-width: 768px){
 	.footer{
-		max-width: 648px;
-    	margin: 0 auto;
+		max-width: 650px;
+	    margin: 0 auto;
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    padding-bottom: 35px;
+	    margin-top: 43px;
 		&__cop{
-			float: right;
+			margin: 0;
+		}
+		&__social{
+			margin: 0;
 		}
 	}
-	.hashtag{
-		float: left;
+
+}
+
+@media (min-width: 1200px){
+	.footer{
+		max-width: 1103px;
+		padding-top: 0px;
+		margin-top: 33px;
+		&__hashtag{
+			padding-left: 82px;
+		}
+		&__social{
+			margin-right: 92px;
+		}
 	}
 }

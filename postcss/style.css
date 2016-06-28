@@ -1,4 +1,7 @@
+@import url("blocks/fonts.css");
 @import url("blocks/normalize.css");
+@import url("blocks/global.css");
+@import url("blocks/btn.css");
 @import url("blocks/page.css");
 @import url("blocks/menu-top.css");
 @import url("blocks/reasons.css");
@@ -9,5 +12,5 @@
 @import url("blocks/photo-index.css");
 @import url("blocks/photos.css");
 @import url("blocks/video.css");
-@import url("blocks/btn.css");
 @import url("blocks/interested.css");
+@import url("blocks/social-link.css");
