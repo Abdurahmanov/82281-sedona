@@ -1,5 +1,5 @@
-.btn{
-	background-color: #81b3d2;
+.btn {
+    background-color: #81b3d2;
     color: white;
     font-size: 21px;
     font-family: "PTSans-bold", Arial, sans-serif;
@@ -11,10 +11,17 @@
     width: 280px;
     margin: 0 auto;
     margin-bottom: 50px;
+    &:hover {
+        background-color: #669ec0;
+    }
+    &:active {
+        background-color: #5496bd;
+        color: rgba(255, 255, 255, 0.3);
+    }
 }
 
-@media (min-width: 768px){
-    .btn{
+@media (min-width: 768px) {
+    .btn {
         width: 100%;
     }
 }

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
+</head>
 
-    
+<body>
     <div class="wrapper page">
-    	<header class="header">
+        <header class="header">
             <ul class="menu-top">
                 <li class="menu-top__item"><a href="index.html" class="menu-top__link">Главная</a></li>
-                <li class="menu-top__item"><a href="photo.html" class="menu-top__link">Фото и видео</a></li>
-                <li class="menu-top__item"><a href="form.html" class="menu-top__link">Форма отзыва</a></li>
+                <li class="menu-top__item "><a href="photo.html" class="menu-top__link">Фото и видео</a></li>
+                <li class="menu-top__item menu-top__item_active"><a href="form.html" class="menu-top__link">Форма отзыва</a></li>
                 <li class="menu-top__item"><a href="#" class="menu-top__link">HTML academy</a></li>
             </ul>
             <span class="header__burger"></span>
@@ -26,16 +26,16 @@
         <div class="photo-index photo-index_photo">
             <div class="photo-index__img">
                 <div class="photo-index__img-title">
-                </div>      
+                </div>
             </div>
         </div>
-    	<div class="page__title page__title_form">
-    		Оставьте свой отзыв
-    	</div>
-    	<div class="page__description">
-    		Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
-    	</div>
-    	<form class="form">
+        <div class="page__title page__title_form">
+            Оставьте свой отзыв
+        </div>
+        <div class="page__description">
+            Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
+        </div>
+        <form class="form">
             <div class="form__block form__block_radio">
                 <div class="form__title">
                     Ваше общее впечатление:
@@ -53,83 +53,103 @@
                     <label for="radio3">Затрудняюсь ответить</label>
                 </div>
             </div>
-    		<div class="form__block">
-    			<div class="form__title">
-	    			Представьтесь, пожалуйста:
-	    		</div>
-    		
-    			<label for="name">Имя:<input type="text" name="name" id="name" class="form__name"></label>
-    		
-    		
-    			<label for="surname">Фамилия:<input type="text" name="surname" id="surname" class="form__name"></label>
-    		
-    		
-    			<label for="middlename">Отчество:<input type="text" name="middlename" id="middlename" class="form__name"></label>
-    		
-    		</div>
-    		<div class="form__block form__block_information">
-    			<div class="form__title">
-	    			Контактная информация:
-	    		</div>
-	    		<div class="form__tel">
-	    			<label for="tel">Контактный телефон:</label>
-	    			<input type="text" id="tel" >
-	    		</div>
+            <div class="form__block">
+                <div class="form__title">
+                    Представьтесь, пожалуйста:
+                </div>
+                <label for="name">Имя:
+                    <input type="text" name="name" id="name" class="form__name">
+                </label>
+                <label for="surname">Фамилия:
+                    <input type="text" name="surname" id="surname" class="form__name">
+                </label>
+                <label for="middlename">Отчество:
+                    <input type="text" name="middlename" id="middlename" class="form__name">
+                </label>
+            </div>
+            <div class="form__block form__block_information">
+                <div class="form__title">
+                    Контактная информация:
+                </div>
+                <div class="form__tel">
+                    <label for="tel">Контактный телефон:</label>
+                    <input type="text" id="tel">
+                </div>
                 <div class="form__error">Ошибка, перепроверьте номер</div>
-	    		<div class="form__mail">
-	    			<label for="mail">Электронная почта:</label>
-	    			<input type="email" id="mail">
-	    		</div>
-    		</div>
-    		
-    		<div class="form__block form__block_checkbox" >
-    			<div class="form__title">
-	    			посещенные достопримечательности:
-	    		</div>
-	    		<div class="form__checkbox">
+                <div class="form__mail">
+                    <label for="mail">Электронная почта:</label>
+                    <input type="email" id="mail">
+                </div>
+            </div>
+            <div class="form__block form__block_checkbox">
+                <div class="form__title">
+                    посещенные достопримечательности:
+                </div>
+                <div class="form__checkbox">
                     <input type="checkbox" id="checkbox1" name="checkbox">
-	    			<label for="checkbox1">Мост Дьявола</label>
-	    		</div>
-	    		<div class="form__checkbox">
+                    <label for="checkbox1">Мост Дьявола</label>
+                </div>
+                <div class="form__checkbox">
                     <input type="checkbox" id="checkbox2" name="checkbox">
-	    			<label for="checkbox2">Слайд-парк</label>
-	    		</div>
-	    		<div class="form__checkbox">
+                    <label for="checkbox2">Слайд-парк</label>
+                </div>
+                <div class="form__checkbox">
                     <input type="checkbox" id="checkbox3" name="checkbox">
-	    			<label for="checkbox3">Гора-Колокол</label>
-	    		</div>
-	    		<div class="form__checkbox">
+                    <label for="checkbox3">Гора-Колокол</label>
+                </div>
+                <div class="form__checkbox">
                     <input type="checkbox" id="checkbox4" name="checkbox">
-	    			<label for="checkbox4">Красные скалы</label>
-	    		</div>
-    		</div>
-    		<div class="form__block form__block_textarea">
-    			<div class="form__title">
-	    			Опишите свои эмоции:
-	    		</div>
-	    		<textarea name="textarea" placeholder="Опишите подробно все свои восторги "></textarea>
-    		</div>
-    		<div class="form__block form__block_submit">
+                    <label for="checkbox4">Красные скалы</label>
+                </div>
+            </div>
+            <div class="form__block form__block_textarea">
+                <div class="form__title">
+                    Опишите свои эмоции:
+                </div>
+                <textarea name="textarea" placeholder="Опишите подробно все свои восторги "></textarea>
+            </div>
+            <div class="form__block form__block_submit">
                 <button type="submit" class="form__submit btn">Отправить отзыв</button>
                 <span class="form__obligatory">* — обязательные поля</span>
             </div>
-    	</form>
-    	
-    	<footer class="footer">
-    		<div class="footer__hashtag">
-    			#visitSEDONA
-    		</div>
-    		<div class="footer__social">
-    			<a href="#" class="social-link social-link_fb"></a>
-    			<a href="#" class="social-link social-link_tw"></a>
-    			<a href="#" class="social-link social-link_yout"></a>
-    		</div>
-    		<div class="footer__cop">
-    			Разработана
-    			<a href="#" class="footer__cop-link"></a>
-    		</div>
-    	</footer>
+        </form>
+        <div class="modal">
+            <div class="modal__inner">
+                <div class="modal__block">
+                    <div class="modal__title">
+                        Что-то пошло не так!
+                    </div>
+                    <div class="modal__text">
+                        Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
+                    </div>
+                    <a href="#" class="btn modal__btn">OK</a>
+                </div>
+                <div class="modal__block modal__block_big">
+                    <div class="modal__title">
+                        Ваш отзыв отправлен!
+                    </div>
+                    <div class="modal__text">
+                        Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.
+                    </div>
+                    <a href="#" class="btn modal__btn">ЗАКРЫТЬ ОКНО</a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__hashtag">
+                #visitSEDONA
+            </div>
+            <div class="footer__social">
+                <a href="#" class="social-link social-link_fb"></a>
+                <a href="#" class="social-link social-link_tw"></a>
+                <a href="#" class="social-link social-link_yout"></a>
+            </div>
+            <div class="footer__cop">
+                Разработана
+                <a href="#" class="footer__cop-link"></a>
+            </div>
+        </footer>
     </div>
+</body>
 
-  </body>
 </html>
