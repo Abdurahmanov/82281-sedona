@@ -7,7 +7,7 @@
         text-transform: uppercase;
         text-align: center;
         margin-top: 42px;
-        margin-bottom: 35px;
+        padding-bottom: 35px;
     }
     &__social {
         display: flex;
@@ -49,6 +49,7 @@
         margin-top: 43px;
         &__cop {
             margin: 0;
+            padding-bottom: 0;
         }
         &__social {
             margin: 0;
@@ -58,11 +59,11 @@
 
 @media (min-width: 1200px) {
     .footer {
-        max-width: 1103px;
+        max-width: 1110px;
         padding-top: 0px;
         margin-top: 33px;
         &__hashtag {
-            padding-left: 82px;
+            padding-left: 87px;
         }
         &__social {
             margin-right: 92px;

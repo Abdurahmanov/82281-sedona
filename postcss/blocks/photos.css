@@ -15,7 +15,7 @@
         text-transform: uppercase;
     }
     &__info {
-        margin-top: 15px;
+        margin-top: 14px;
     }
     &__author {
         line-height: 24px;
@@ -80,7 +80,7 @@
             padding: 0 20px;
         }
         &__like {
-            padding: 0 20px 0 30px;
+            padding: 0 30px 0 39px;
         }
         &__info {
             display: flex;
@@ -113,8 +113,8 @@
 @media (min-width: 1200px) {
     .photos {
         max-width: 100%;
-        margin-top: 67px;
-        margin-bottom: 75px;
+        margin-top: 70px;
+        margin-bottom: 72px;
     }
     .photo {
         width: 33.333333%;
@@ -126,11 +126,12 @@
             height: 267px;
         }
         &__title {
-            padding: 0 20px;
+            padding: 0 24px;
             color: #fff;
+            line-height: 24px;
         }
         &__author {
-            padding: 0 20px;
+            padding: 0 24px;
             color: #fff;
         }
         &__like {

@@ -1,6 +1,12 @@
 .map {
-    margin-bottom: 30px;
+    margin-bottom: 31px;
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .map {
+        margin-bottom: -12px;
+    }
 }
 
 @media (min-width: 1200px) {

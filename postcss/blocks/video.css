@@ -1,7 +1,7 @@
 .video {
     max-width: 320px;
     margin: 0 auto;
-    margin-top: 35px;
+    margin-top: 34px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -93,8 +93,8 @@
 @media (min-width: 768px) {
     .video {
         max-width: 650px;
-        margin-top: 70px;
-        margin-bottom: 80px;
+        margin-top: 75px;
+        margin-bottom: 77px;
         &__img {
             height: 499px;
             width: 650px;

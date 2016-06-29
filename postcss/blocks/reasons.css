@@ -33,7 +33,7 @@
         color: black;
         font-size: 18px;
         font-family: "PTSans-bold", Arial, sans-serif;
-        line-height: 26px;
+        line-height: 23px;
         margin-bottom: 12px;
         position: relative;
     }
@@ -41,7 +41,7 @@
         color: #333;
         font-size: 14px;
         font-weight: 400;
-        line-height: 21px;
+        line-height: 22px;
         text-transform: uppercase;
     }
     &__img {
@@ -79,15 +79,19 @@
         width: 39px;
         height: 37px;
         background-size: cover;
+        top: -2px;
     }
 }
 
 .reason__item_gift {
+    margin-bottom: 19px;
     &::before {
         background: url("../img/icon-gift.svg");
         width: 32px;
         height: 38px;
         background-size: cover;
+        top: -2px;
+        left: 5px;
     }
 }
 
@@ -97,6 +101,8 @@
         width: 40px;
         height: 35px;
         background-size: cover;
+        top: 4px;
+        left: -2px;
     }
 }
 
@@ -124,6 +130,7 @@
     color: #333;
     font-size: 14px;
     font-weight: 400;
+    padding: 0 10px;
 }
 
 .reason_bottom .reason__number {
@@ -143,9 +150,11 @@
         &_items {
             margin-top: 17px;
             margin-bottom: 12px;
+            padding: 34px 0px 27px;
         }
         &__info {
             width: 28%;
+            padding: 45px 20px 38px;
         }
         &__photo {
             width: 67%;
@@ -155,20 +164,34 @@
             padding: 10px 20px 0;
             display: flex;
             flex-direction: column;
+            width: 100%;
         }
         &__head {
             margin-bottom: 22px;
+            font-size: 21px;
         }
         &__title {
             font-size: 21px;
+            padding: 0 32px;
+        }
+        &__slogan {
+            padding: 0 25px;
+        }
+        &__number {
+            margin-bottom: 23px;
+        }
+        &__description {
+            padding: 0 25px;
         }
     }
+    .reason__photo img {
+        height: 251px;
+    }
     .reason_bottom .reason {
-        padding: 0;
+        padding: 24px 28px 14px;
         display: flex;
         width: 33%;
         flex-grow: 1;
-        padding: 15px 52px;
         &__info {
             width: 100%;
             border: none;
@@ -181,8 +204,7 @@
     .reason__item {
         &::before {
             position: relative;
-            margin: 0 auto;
-            margin-bottom: 30px;
+            margin: 0 auto 24px;
         }
     }
     .reason__item_hous {
@@ -193,7 +215,10 @@
         order: 1;
         &::before {
             width: 75px;
-            height: 72px;
+            height: 75px;
+            left: -1px;
+            background-size: contain;
+            background-repeat: no-repeat;
         }
     }
     .reason__item_gift {
@@ -205,6 +230,9 @@
         &::before {
             width: 63px;
             height: 75px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            left: 0px;
         }
     }
     .reason__item_food {
@@ -215,8 +243,13 @@
         order: 2;
         &::before {
             width: 77px;
-            height: 68px;
+            height: 75px;
+            background-size: contain;
+            background-repeat: no-repeat;
         }
+    }
+    .reason__info.reason__info_direction {
+        padding-top: 45px;
     }
 }
 
@@ -228,13 +261,34 @@
             margin-bottom: 20px;
         }
         &_items {
-            margin-bottom: 20px;
+            margin-bottom: 35px;
         }
         &__info {
             width: 30%;
+            padding: 53px 20px 38px;
+        }
+        &__title {
+            padding: 0 104px;
+        }
+        &__slogan {
+            padding: 0 50px;
+        }
+        &__description {
+            padding: 0 15px;
         }
     }
-    .reason_bottom .reason {
-        padding: 15px 96px 35px;
+    .reason_bottom {
+        .reason {
+            padding: 23px 96px 35px;
+        }
+        .reason__title {
+            padding: 0 30px;
+        }
+        .reason__slogan {
+            padding: 0;
+        }
+    }
+    .reason__info.reason__info_direction {
+        padding-top: 53px;
     }
 }

@@ -2,7 +2,7 @@
     font-family: PTSans, Arial, sans-serif;
     background: #fff;
     &__title {
-        line-height: 26px;
+        line-height: 25px;
         text-transform: uppercase;
         color: black;
         font-size: 18px;
@@ -11,7 +11,7 @@
         text-align: center;
     }
     &__description {
-        line-height: 24px;
+        line-height: 28px;
         color: #333;
         font-size: 14px;
         font-weight: 400;
@@ -20,6 +20,21 @@
         text-align: center;
         margin-top: 26px;
         margin-bottom: 30px;
+    }
+}
+
+.page_photo {
+    .page__description {
+        line-height: 25px;
+        margin-top: 27px;
+        padding: 0 25px;
+    }
+}
+
+.page_form {
+    .page__description {
+        line-height: 25px;
+        margin-top: 25px;
     }
 }
 
@@ -54,5 +69,12 @@
         max-width: 1200px;
         margin: 0 auto;
         box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
+    }
+    .page_photo {
+        .page__description {
+            line-height: 25px;
+            margin-top: 30px;
+            padding: 0 383px;
+        }
     }
 }
