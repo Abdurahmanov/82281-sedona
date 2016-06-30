@@ -25,6 +25,7 @@
         flex-wrap: wrap;
         bottom: 45px;
         background: rgba(242, 242, 242, 0.4);
+        left: 0;
     }
     &__buttons {
         display: flex;
